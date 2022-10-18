@@ -1,0 +1,2759 @@
+
+
+    /* ---------Same Code Bubole ---------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+body{
+    
+    font-family: 'Work Sans', sans-serif; 
+    font-size: 16px;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    
+    
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500px;
+    
+}
+*{ margin: 0px; padding:0px; }
+
+section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    
+}
+
+
+
+.TopBg {
+    background: #f5f5f5;
+    overflow: hidden;
+}
+
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+
+.phone {
+    width: 210px;
+    float: left;
+    padding: 15px 12px;
+    border-left: 1px solid #e4e4e4;
+}
+
+.Email {
+    width: 550px;
+    float: left;
+    border-left: 1px solid #e4e4e4;
+}
+
+.Social {
+    float: right;
+}
+
+.Wrapper {
+    overflow: hidden;
+}
+
+.phone i {
+    font-size: 15px;
+    color: #ff5200;
+    margin-right: 5px;
+}
+
+.Email {
+    padding: 15px 12px;
+}
+
+.Email i {
+    color: #ff5200;
+    margin-right: 5px;
+}
+
+ul#SocialIcon {
+    list-style: none;
+}
+
+ul#SocialIcon li {
+    float: left;
+    padding: 15px 20px;
+    border-left: 1px solid #e4e4e4;
+    font-size: 15px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+#SocialIcon li:last-child{
+    
+    border-right: 1px solid #e4e4e4;
+    
+    
+}
+#SocialIcon li:hover{
+    color: #ff5200;
+    cursor: pointer;
+    
+    
+    
+}
+
+.ImgLogo {
+    width: 124px;
+    margin: 25px 0px 25px 0px;
+    float: left;
+    overflow: hidden;
+}
+
+.TopMenu {
+    
+}
+.MenuWrapper {
+    overflow: hidden;
+}
+
+.TopMenu ul {
+    list-style: none;
+    float: right;
+}
+
+.TopMenu ul li {
+    float: left;
+    margin-right: 40px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: block;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .08mm;
+}
+
+
+
+#Project1{
+    
+    background-image: url("../image/slide-2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.TitleTag {
+    width: 545px;
+    font-size: 36px;
+    line-height: 1.4;
+    color: white;
+}
+
+.TitleTag h2 {
+    font-weight: 500;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+}
+
+.ProTitle {
+    width: 420px;
+}
+
+.ProTitle p {
+    color: white;
+    line-height: 1.9;
+    letter-spacing: 0.09px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.Butwrap {
+    width: 200px;
+}
+
+.Butwrap button:hover{
+    
+    background: #252525;
+    cursor: pointer;
+}
+
+.Butwrap button {
+    font-size: 17px;
+    margin-top: 30px;
+    color: white;
+    border-style: none;
+    padding: 16px 35px;
+    letter-spacing: 0.08em;
+    background: #ff5200;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+section#Projects2 {
+    background: #f6f6f6;
+}
+
+.Wrappars2 {
+    overflow: hidden;
+}
+
+.BoxWrapprs {
+    width: 266px;
+    text-align: center;
+    float: left;
+    margin-right: 25px;
+    overflow: hidden;
+    background: white;
+}
+
+
+.Logo1 {
+    text-align: center;
+}
+
+.Logo1 i {
+    font-size: 32px;
+    margin: 35px 0px 25px 0px;
+    color: #ff5200;
+}
+
+.TitleDes {
+    text-align: center;
+}
+
+.TitleDes h2 {
+    font-size: 25px;
+    line-height: 1.2;
+    color: #585656;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+.TitleDes p {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.TitleDes a {
+    text-decoration: none;
+}
+
+.MoreLearn a {
+    text-decoration: none;
+    color: #ff5200;
+}
+
+.MoreLearn a i {
+    font-size: 12px;
+}
+
+.MoreLearn {
+    margin-bottom: 35px;
+}
+
+.BoxWrapprs:last-child{
+    
+    margin-right: 0px;
+}
+
+
+
+
+
+.ImgDesc {
+    width: 550px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+
+.ImgDesc img {
+    width: 100%;
+    overflow: hidden;
+    float: left;
+}
+
+.TtitleDes {
+    width: 550px;
+    float: right;
+    overflow: hidden;
+}
+
+.Title h2 {
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.Title p {
+    margin-bottom: 25px;
+    line-height: 24.9px;
+    color: #666;
+}
+
+.Titledes ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+.Titledes ul li {
+    font-size: 17px;
+    float: left;
+    width: 260px;
+    line-height: 2.6;
+}
+
+.Titledes {
+    margin-bottom: 25px;
+}
+
+.Buttons {
+    background: #ff5200;
+    width: 125px;
+    text-align: center;
+    padding: 14px 16px;
+    border-radius: 6px;
+}
+
+.Buttons a {
+    text-decoration: none;
+    font-size: 19px;
+    text-transform: uppercase;
+    letter-spacing: 1.01px;
+    font-family: oswald;
+    color: white;
+}
+
+.Titledes ul li i {
+    font-size: 13px;
+    margin-right: 15px;
+    color: #676767;
+}
+
+.Buttons:hover {
+    background: #252525;
+    color: white;
+}
+
+.Titledes ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.Titledes ul li a:hover {
+    color: #ff5200;
+    transition: 0.5s;
+}
+
+.ContaiWrappers {
+    overflow: hidden;
+}
+
+
+
+
+
+section#ChooseUs {
+    background: linear-gradient(#2321217a,#23232396), url(../image/why-choose-us1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.warppras {
+    overflow: hidden;
+}
+
+.Titlwrapra {
+    width: 280px;
+    text-align: center;
+    overflow: hidden;
+    float: left;
+}
+
+.ChooseIcons i {
+    font-size: 28px;
+    margin-bottom: 18px;
+    color: white;
+}
+
+.ChooseTitles span {
+    font-size: 50px;
+    color: white;
+    font-weight: 600;
+}
+
+.ChooseTitles h3 {
+    color: white;
+    font-size: 22px;
+    margin-top: 12px;
+    font-weight: 500;
+}
+
+
+
+
+section#FromUs {
+    background: #f6f6f6;
+}
+
+.FromWrapprs {
+    overflow: hidden;
+}
+
+.FromTitle {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.FromTitle h2 {
+    font-size: 40px;
+}
+
+.FromTitle p {
+    color: #666;
+    line-height: 1.5;
+}
+
+.FrmDesWrap {
+    overflow: hidden;
+    width: 265px;
+    float: left;
+    margin-right: 25px;
+}
+
+.FromImg {
+    width: 270px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.FromImg img {
+    position: relative;
+    width: 100%;
+}
+
+.FromImgTitle p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.FromImgTitle h3 {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.FrmDesWrap:last-child {
+    margin-right: 0px;
+}
+
+
+
+
+.PriceBoxWrap {
+    width: 276px;
+    overflow: hidden;
+    box-shadow: 0px 0px 28px 18px #fafafa;
+    padding: 35px;
+    border: 1px solid #feee;
+    float: left;
+    margin-right: 30px;
+}
+
+.PriceConWraprs {
+    overflow: hidden;
+}
+
+
+.PriTopTitl h2 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.PriTopTitl h3 {
+    font-size: 50px;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 9px;
+}
+
+.PriTopTitl span {
+    font-size: 22px;
+    font-weight: 800;
+    font-family: 'Work Sans', sans-serif;
+    margin-left: -4px;
+}
+
+.PriceDes ul li {
+    list-style: none;
+    line-height: 2.2;
+    color: #777;
+}
+
+.PriceDes ul {
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+
+.PriceBtn {
+    width: 226px;
+    /* text-align: center; */
+    overflow: hidden;
+}
+
+.PriceBtn button {
+    border-style: none;
+    background: #ff5200;
+    padding: 13px 40px;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 19px;
+    font-family: 'oswald', sans-serif;
+}
+
+.PriceDes ul li i {
+    color: #ff5200;
+    font-size: 11px;
+    margin-right: 4px;
+}
+
+.PriceBtn button:hover {
+    background: #252525;
+    cursor: pointer;
+}
+
+
+
+
+.MeetBoxWrap {
+    width: 255px;;
+    float: left;
+    margin-right: 35px;
+    overflow: hidden;
+    border: 1px solid #f1f1f1;
+}
+
+.MeetImg {
+    width: 100%;
+}
+
+.MeetImg img {
+    width: 100%;
+}
+
+.MettTitle {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.MettTitle h2 {
+    font-size: 19px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 4px;
+}
+
+.MettTitle span {
+    font-size: 12px;
+}
+
+.MeetBoxWrap:last-child {
+    margin-right: 0px;
+}
+
+.JoinBtn {
+    text-align: center;
+}
+
+.JoinBtn button {
+    margin-top: 45px;
+    border-style: none;
+    background: #252525;
+    color: white;
+    padding: 14px 38px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    border-radius: 7px;
+}
+
+.JoinBtn button:hover {
+    background: #ff5200;
+    cursor: pointer;
+}
+
+.JoinBtn button a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+.BestImgWraps {
+    width: 353px;
+    float: left;
+    overflow: hidden;
+    margin-right: 45px;
+}
+
+.BestImgWraps img {
+    width: 100%;
+}
+.BestWra {
+    column-count: 3;
+    overflow: hidden;
+}
+
+.BestTitleInfo {
+    transform: translatey(-154px);
+    width: 315px;
+    padding: 20px;
+    display: block;
+    overflow: hidden;
+}
+
+.BestTitleInfo {}
+
+.BestTitle span {
+    font-weight: 500;
+    color: white;
+    font-size: 15px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.BestTitle h3 {
+    color: white;
+    display: block;
+    font-size: 22px;
+    line-height: 1.2;
+}
+
+.BestTitleInfo {}
+
+.BestTitleInfo a {
+    color: #ff5200;
+    text-decoration: none;
+    margin-top: 10px;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+.BestTitleInfo {
+    background: linear-gradient(to top, black, transparent 145px);
+}
+
+
+.BestTitle {
+    margin-bottom: 20px;
+    display: block;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+section#BestProject {
+    background: #f6f6f6;
+}
+
+.ConWrapprs {
+    overflow: hidden;
+}
+
+
+
+.LatesBoxWraprs {
+    width: 357px;
+    overflow: hidden;
+    float: left;
+    border: 1px solid #eee;
+    margin-right: 30px;
+}
+
+.LatesImg img {
+    width: 100%;
+}
+
+.LatesTitle a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+}
+
+.LatesTitle {}
+
+.LatesTitle p {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #999;
+}
+
+.LatesTitle {
+    padding: 25px;
+}
+
+
+a.LatesReadmore {
+    text-decoration: none;
+    color: #ff5200;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Work Sans', sans-serif;
+}
+
+a.LatesReadmore i {
+    font-size: 10px;
+    margin-left: 4px;
+}
+
+.LatesBoxWraprs:last-child {
+    margin-right: 0px;
+}
+
+.LateNewWraprs {
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+#FooterMenu{
+    
+    background: #1A1A1A;
+}
+
+
+.contaonerwra {
+    overflow: hidden;
+}
+
+.FooterCopyri {
+    width: 430px;
+    color: #ababab;
+    float: left;
+    padding: 30px 13px;
+    display: block;
+}
+
+.FooterDown {}
+
+.FooterDown {
+    float: right;
+    width: 336px;
+    padding: 30px 1px;
+}
+
+ul#FoterListLast {
+    list-style: none;
+    float: left;
+    color: #ababab;
+}
+
+ul#FoterListLast li {
+    float: left;
+    margin-right: 31px;
+}
+
+
+ul#FoterListLast li a {
+    text-decoration: none;
+    color: #ababab;
+}
+
+
+
+
+
+
+
+.FotearSinWra {
+    width: 270px;
+    overflow: hidden;
+    float: left;
+    padding: 15px;
+}
+
+.FoterAbout h2 {
+    color: white;
+    margin-bottom: 25px;
+    margin-top: 80px;
+}
+
+.FoterAbout p {
+    color: #ABABAB;
+    margin-bottom: 35px;
+}
+
+.FoterLinkIcon ul {
+    list-style: none;
+    color: #ababab;
+}
+
+.FoterLinkIcon ul li a {
+    text-decoration: none;
+    color: #ababab;
+}
+
+.FoterLinkIcon ul li {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.FoterWrappers{
+    
+    overflow: hidden;
+    
+}
+
+
+.FoterIcons {
+    width: 25px;
+    overflow: hidden;
+    float: left;
+}.FoterIcons {}
+
+.FoterIcons i {
+    color: #ff5200;
+}
+
+.FoterDetails {
+    padding-left: 30px;
+    color: #ababab;
+    width: 220px;
+    font-size: 15px;
+}
+
+li.FotersIconsMenu {
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+ul#FotersAbouts {}
+
+ul#FotersAbouts li {
+    list-style: none;
+    margin-bottom: 10px;
+    padding-bottom: 11px;
+    font-size: 15px;
+    border-bottom: 1px dashed rgba(74, 74, 74, 0.5);
+    line-height: 7px;
+}
+
+ul#FotersAbouts li a {
+    text-decoration: none;
+    color: #ababab;
+}
+
+
+
+
+
+.FoterDate {
+    width: 50px;
+    text-align: center;
+    color: white;
+    float: left;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: rgba(255,255,255,.1);
+}
+
+.FoterDate strong {
+    font-size: 25px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.FoterDate span {
+    font-size: 11px;
+    display: block;
+    margin-bottom: 1px;
+    text-transform: uppercase;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+body{
+    
+    font-family: 'Work Sans', sans-serif; 
+    font-size: 16px;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    
+    
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500px;
+    
+}
+*{ margin: 0px; padding:0px; }
+
+section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    
+}
+
+
+
+.TopBg {
+    background: #f5f5f5;
+    overflow: hidden;
+}
+
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+
+.phone {
+    width: 210px;
+    float: left;
+    padding: 15px 12px;
+    border-left: 1px solid #e4e4e4;
+}
+
+.Email {
+    width: 550px;
+    float: left;
+    border-left: 1px solid #e4e4e4;
+}
+
+.Social {
+    float: right;
+}
+
+.Wrapper {
+    overflow: hidden;
+}
+
+.phone i {
+    font-size: 15px;
+    color: #ff5200;
+    margin-right: 5px;
+}
+
+.Email {
+    padding: 15px 12px;
+}
+
+.Email i {
+    color: #ff5200;
+    margin-right: 5px;
+}
+
+ul#SocialIcon {
+    list-style: none;
+}
+
+ul#SocialIcon li {
+    float: left;
+    padding: 15px 20px;
+    border-left: 1px solid #e4e4e4;
+    font-size: 15px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+#SocialIcon li:last-child{
+    
+    border-right: 1px solid #e4e4e4;
+    
+    
+}
+#SocialIcon li:hover{
+    color: #ff5200;
+    cursor: pointer;
+    
+    
+    
+}
+
+.ImgLogo {
+    width: 124px;
+    margin: 25px 0px 25px 0px;
+    float: left;
+    overflow: hidden;
+}
+
+.TopMenu {
+    /* width: 550px; */
+}
+.MenuWrapper {
+    overflow: hidden;
+}
+
+.TopMenu ul {
+    list-style: none;
+    float: right;
+}
+
+.TopMenu ul li {
+    float: left;
+    margin-right: 40px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: block;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .08mm;
+}
+
+
+
+#Project1{
+    
+    background-image: url("../image/slide-2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.TitleTag {
+    width: 545px;
+    font-size: 36px;
+    line-height: 1.4;
+    color: white;
+}
+
+.TitleTag h2 {
+    font-weight: 500;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+}
+
+.ProTitle {
+    width: 420px;
+}
+
+.ProTitle p {
+    color: white;
+    line-height: 1.9;
+    letter-spacing: 0.09px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.Butwrap {
+    width: 200px;
+}
+
+.Butwrap button:hover{
+    
+    background: #252525;
+    cursor: pointer;
+}
+
+.Butwrap button {
+    font-size: 17px;
+    margin-top: 30px;
+    color: white;
+    border-style: none;
+    padding: 16px 35px;
+    letter-spacing: 0.08em;
+    background: #ff5200;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+section#Projects2 {
+    background: #f6f6f6;
+}
+
+.Wrappars2 {
+    overflow: hidden;
+}
+
+.BoxWrapprs {
+    width: 266px;
+    text-align: center;
+    float: left;
+    margin-right: 25px;
+    overflow: hidden;
+    background: white;
+}
+
+.BoxWrapprs {}
+
+.Logo1 {
+    text-align: center;
+}
+
+.Logo1 i {
+    font-size: 32px;
+    margin: 35px 0px 25px 0px;
+    color: #ff5200;
+}
+
+.TitleDes {
+    text-align: center;
+}
+
+.TitleDes h2 {
+    font-size: 25px;
+    line-height: 1.2;
+    color: #585656;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+.TitleDes p {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.TitleDes a {
+    text-decoration: none;
+}
+
+.MoreLearn a {
+    text-decoration: none;
+    color: #ff5200;
+}
+
+.MoreLearn a i {
+    font-size: 12px;
+}
+
+.MoreLearn {
+    margin-bottom: 35px;
+}
+
+.BoxWrapprs:last-child{
+    
+    margin-right: 0px;
+}
+
+
+
+
+
+.ImgDesc {
+    width: 550px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+
+.ImgDesc img {
+    width: 100%;
+    overflow: hidden;
+    float: left;
+}
+
+.TtitleDes {
+    width: 550px;
+    float: right;
+    overflow: hidden;
+}
+
+.Title h2 {
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.Title p {
+    margin-bottom: 25px;
+    line-height: 24.9px;
+    color: #666;
+}
+
+.Titledes ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+.Titledes ul li {
+    font-size: 17px;
+    float: left;
+    width: 260px;
+    line-height: 2.6;
+}
+
+.Titledes {
+    margin-bottom: 25px;
+}
+
+.Buttons {
+    background: #ff5200;
+    width: 125px;
+    text-align: center;
+    padding: 14px 16px;
+    border-radius: 6px;
+}
+
+.Buttons a {
+    text-decoration: none;
+    font-size: 19px;
+    text-transform: uppercase;
+    letter-spacing: 1.01px;
+    font-family: oswald;
+    color: white;
+}
+
+.Titledes ul li i {
+    font-size: 13px;
+    margin-right: 15px;
+    color: #676767;
+}
+
+.Buttons:hover {
+    background: #252525;
+    color: white;
+}
+
+.Titledes ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.Titledes ul li a:hover {
+    color: #ff5200;
+    transition: 0.5s;
+}
+
+.ContaiWrappers {
+    overflow: hidden;
+}
+
+
+
+
+
+section#ChooseUs {
+    background: linear-gradient(#2321217a,#23232396), url(../image/why-choose-us1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.warppras {
+    overflow: hidden;
+}
+
+.Titlwrapra {
+    width: 280px;
+    text-align: center;
+    overflow: hidden;
+    float: left;
+}
+
+.ChooseIcons i {
+    font-size: 28px;
+    margin-bottom: 18px;
+    color: white;
+}
+
+.ChooseTitles span {
+    font-size: 50px;
+    color: white;
+    font-weight: 600;
+}
+
+.ChooseTitles h3 {
+    color: white;
+    font-size: 22px;
+    margin-top: 12px;
+    font-weight: 500;
+}
+
+
+
+
+section#FromUs {
+    background: #f6f6f6;
+}
+
+.FromWrapprs {
+    overflow: hidden;
+}
+
+.FromTitle {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.FromTitle h2 {
+    font-size: 40px;
+}
+
+.FromTitle p {
+    color: #666;
+    line-height: 1.5;
+}
+
+.FrmDesWrap {
+    overflow: hidden;
+    width: 265px;
+    float: left;
+    margin-right: 25px;
+}
+
+.FromImg {
+    width: 270px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.FromImg img {
+    position: relative;
+    width: 100%;
+}
+
+.FromImgTitle p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.FromImgTitle h3 {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.FrmDesWrap:last-child {
+    margin-right: 0px;
+}
+
+
+
+
+.PriceBoxWrap {
+    width: 276px;
+    overflow: hidden;
+    box-shadow: 0px 0px 28px 18px #fafafa;
+    padding: 35px;
+    border: 1px solid #feee;
+    float: left;
+    margin-right: 30px;
+}
+
+.PriceConWraprs {
+    overflow: hidden;
+}
+
+
+.PriTopTitl h2 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.PriTopTitl h3 {
+    font-size: 50px;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 9px;
+}
+
+.PriTopTitl span {
+    font-size: 22px;
+    font-weight: 800;
+    font-family: 'Work Sans', sans-serif;
+    margin-left: -4px;
+}
+
+.PriceDes ul li {
+    list-style: none;
+    line-height: 2.2;
+    color: #777;
+}
+
+.PriceDes ul {
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+
+.PriceBtn {
+    width: 226px;
+    /* text-align: center; */
+    overflow: hidden;
+}
+
+.PriceBtn button {
+    border-style: none;
+    background: #ff5200;
+    padding: 13px 40px;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 19px;
+    font-family: 'oswald', sans-serif;
+}
+
+.PriceDes ul li i {
+    color: #ff5200;
+    font-size: 11px;
+    margin-right: 4px;
+}
+
+.PriceBtn button:hover {
+    background: #252525;
+    cursor: pointer;
+}
+
+
+
+
+.MeetBoxWrap {
+    width: 255px;;
+    float: left;
+    margin-right: 35px;
+    overflow: hidden;
+    border: 1px solid #f1f1f1;
+}
+
+.MeetImg {
+    width: 100%;
+}
+
+.MeetImg img {
+    width: 100%;
+}
+
+.MettTitle {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.MettTitle h2 {
+    font-size: 19px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 4px;
+}
+
+.MettTitle span {
+    font-size: 12px;
+}
+
+.MeetBoxWrap:last-child {
+    margin-right: 0px;
+}
+
+.JoinBtn {
+    text-align: center;
+}
+
+.JoinBtn button {
+    margin-top: 45px;
+    border-style: none;
+    background: #252525;
+    color: white;
+    padding: 14px 38px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    border-radius: 7px;
+}
+
+.JoinBtn button:hover {
+    background: #ff5200;
+    cursor: pointer;
+}
+
+.JoinBtn button a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+.BestImgWraps {
+    width: 353px;
+    float: left;
+    overflow: hidden;
+    margin-right: 45px;
+}
+
+.BestImgWraps img {
+    width: 100%;
+}
+.BestWra {
+    column-count: 3;
+    overflow: hidden;
+}
+
+.BestTitleInfo {
+    transform: translatey(-154px);
+    width: 315px;
+    padding: 20px;
+    display: block;
+    overflow: hidden;
+}
+
+.BestTitleInfo {}
+
+.BestTitle span {
+    font-weight: 500;
+    color: white;
+    font-size: 15px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.BestTitle h3 {
+    color: white;
+    display: block;
+    font-size: 22px;
+    line-height: 1.2;
+}
+
+.BestTitleInfo {}
+
+.BestTitleInfo a {
+    color: #ff5200;
+    text-decoration: none;
+    margin-top: 10px;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+.BestTitleInfo {
+    background: linear-gradient(to top, black, transparent 145px);
+}
+
+
+.BestTitle {
+    margin-bottom: 20px;
+    display: block;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+section#BestProject {
+    background: #f6f6f6;
+}
+
+.ConWrapprs {
+    overflow: hidden;
+}
+
+
+
+.LatesBoxWraprs {
+    width: 357px;
+    overflow: hidden;
+    float: left;
+    border: 1px solid #eee;
+    margin-right: 30px;
+}
+
+.LatesImg img {
+    width: 100%;
+}
+
+.LatesTitle a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+}
+
+.LatesTitle {}
+
+.LatesTitle p {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #999;
+}
+
+.LatesTitle {
+    padding: 25px;
+}
+
+
+a.LatesReadmore {
+    text-decoration: none;
+    color: #ff5200;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Work Sans', sans-serif;
+}
+
+a.LatesReadmore i {
+    font-size: 10px;
+    margin-left: 4px;
+}
+
+.LatesBoxWraprs:last-child {
+    margin-right: 0px;
+}
+
+.LateNewWraprs {
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+#FooterMenu{
+    
+    background: #1A1A1A;
+}
+
+
+.contaonerwra {
+    overflow: hidden;
+}
+
+.FooterCopyri {
+    width: 430px;
+    color: #ababab;
+    float: left;
+    padding: 30px 13px;
+    display: block;
+}
+
+.FooterDown {}
+
+.FooterDown {
+    float: right;
+    width: 336px;
+    padding: 30px 1px;
+}
+
+ul#FoterListLast {
+    list-style: none;
+    float: left;
+    color: #ababab;
+}
+
+ul#FoterListLast li {
+    float: left;
+    margin-right: 31px;
+}
+
+
+ul#FoterListLast li a {
+    text-decoration: none;
+    color: #ababab;
+}
+
+
+
+
+
+
+
+.FotearSinWra {
+    width: 270px;
+    overflow: hidden;
+    float: left;
+    padding: 15px;
+}
+
+.FoterAbout h2 {
+    color: white;
+    margin-bottom: 25px;
+    margin-top: 80px;
+}
+
+.FoterAbout p {
+    color: #ABABAB;
+    margin-bottom: 35px;
+}
+
+.FoterLinkIcon ul {
+    list-style: none;
+    color: #ababab;
+}
+
+.FoterLinkIcon ul li a {
+    text-decoration: none;
+    color: #ababab;
+}
+
+.FoterLinkIcon ul li {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.FoterWrappers{
+    
+    overflow: hidden;
+    
+}
+
+
+.FoterIcons {
+    width: 25px;
+    overflow: hidden;
+    float: left;
+}.FoterIcons {}
+
+.FoterIcons i {
+    color: #ff5200;
+}
+
+.FoterDetails {
+    padding-left: 30px;
+    color: #ababab;
+    width: 220px;
+    font-size: 15px;
+}
+
+li.FotersIconsMenu {
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+ul#FotersAbouts {}
+
+ul#FotersAbouts li {
+    list-style: none;
+    margin-bottom: 10px;
+    padding-bottom: 11px;
+    font-size: 15px;
+    border-bottom: 1px dashed rgba(74, 74, 74, 0.5);
+    line-height: 7px;
+}
+
+ul#FotersAbouts li a {
+    text-decoration: none;
+    color: #ababab;
+}
+
+
+
+
+
+.FoterDate {
+    width: 50px;
+    text-align: center;
+    color: white;
+    float: left;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: rgba(255,255,255,.1);
+}
+
+.FoterDate strong {
+    font-size: 25px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.FoterDate span {
+    font-size: 11px;
+    display: block;
+    margin-bottom: 1px;
+    text-transform: uppercase;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+body{
+    
+    font-family: 'Work Sans', sans-serif; 
+    font-size: 16px;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    
+    
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500px;
+    
+}
+*{ margin: 0px; padding:0px; }
+
+section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    
+}
+
+
+
+.TopBg {
+    background: #f5f5f5;
+    overflow: hidden;
+}
+
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+
+.phone {
+    width: 210px;
+    float: left;
+    padding: 15px 12px;
+    border-left: 1px solid #e4e4e4;
+}
+
+.Email {
+    width: 550px;
+    float: left;
+    border-left: 1px solid #e4e4e4;
+}
+
+.Social {
+    float: right;
+}
+
+.Wrapper {
+    overflow: hidden;
+}
+
+.phone i {
+    font-size: 15px;
+    color: #ff5200;
+    margin-right: 5px;
+}
+
+.Email {
+    padding: 15px 12px;
+}
+
+.Email i {
+    color: #ff5200;
+    margin-right: 5px;
+}
+
+ul#SocialIcon {
+    list-style: none;
+}
+
+ul#SocialIcon li {
+    float: left;
+    padding: 15px 20px;
+    border-left: 1px solid #e4e4e4;
+    font-size: 15px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+#SocialIcon li:last-child{
+    
+    border-right: 1px solid #e4e4e4;
+    
+    
+}
+#SocialIcon li:hover{
+    color: #ff5200;
+    cursor: pointer;
+    
+    
+    
+}
+
+.ImgLogo {
+    width: 124px;
+    margin: 25px 0px 25px 0px;
+    float: left;
+    overflow: hidden;
+}
+
+.TopMenu {
+    /* width: 550px; */
+}
+.MenuWrapper {
+    overflow: hidden;
+}
+
+.TopMenu ul {
+    list-style: none;
+    float: right;
+}
+
+.TopMenu ul li {
+    float: left;
+    margin-right: 40px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: block;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .08mm;
+}
+
+
+
+#Project1{
+    
+    background-image: url("../image/slide-2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.TitleTag {
+    width: 545px;
+    font-size: 36px;
+    line-height: 1.4;
+    color: white;
+}
+
+.TitleTag h2 {
+    font-weight: 500;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+}
+
+.ProTitle {
+    width: 420px;
+}
+
+.ProTitle p {
+    color: white;
+    line-height: 1.9;
+    letter-spacing: 0.09px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.Butwrap {
+    width: 200px;
+}
+
+.Butwrap button:hover{
+    
+    background: #252525;
+    cursor: pointer;
+}
+
+.Butwrap button {
+    font-size: 17px;
+    margin-top: 30px;
+    color: white;
+    border-style: none;
+    padding: 16px 35px;
+    letter-spacing: 0.08em;
+    background: #ff5200;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+section#Projects2 {
+    background: #f6f6f6;
+}
+
+.Wrappars2 {
+    overflow: hidden;
+}
+
+.BoxWrapprs {
+    width: 266px;
+    text-align: center;
+    float: left;
+    margin-right: 25px;
+    overflow: hidden;
+    background: white;
+}
+
+.BoxWrapprs {}
+
+.Logo1 {
+    text-align: center;
+}
+
+.Logo1 i {
+    font-size: 32px;
+    margin: 35px 0px 25px 0px;
+    color: #ff5200;
+}
+
+.TitleDes {
+    text-align: center;
+}
+
+.TitleDes h2 {
+    font-size: 25px;
+    line-height: 1.2;
+    color: #585656;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+.TitleDes p {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.TitleDes a {
+    text-decoration: none;
+}
+
+.MoreLearn a {
+    text-decoration: none;
+    color: #ff5200;
+}
+
+.MoreLearn a i {
+    font-size: 12px;
+}
+
+.MoreLearn {
+    margin-bottom: 35px;
+}
+
+.BoxWrapprs:last-child{
+    
+    margin-right: 0px;
+}
+
+
+
+
+
+.ImgDesc {
+    width: 550px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+
+.ImgDesc img {
+    width: 100%;
+    overflow: hidden;
+    float: left;
+}
+
+.TtitleDes {
+    width: 550px;
+    float: right;
+    overflow: hidden;
+}
+
+.Title h2 {
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.Title p {
+    margin-bottom: 25px;
+    line-height: 24.9px;
+    color: #666;
+}
+
+.Titledes ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+.Titledes ul li {
+    font-size: 17px;
+    float: left;
+    width: 260px;
+    line-height: 2.6;
+}
+
+.Titledes {
+    margin-bottom: 25px;
+}
+
+.Buttons {
+    background: #ff5200;
+    width: 125px;
+    text-align: center;
+    padding: 14px 16px;
+    border-radius: 6px;
+}
+
+.Buttons a {
+    text-decoration: none;
+    font-size: 19px;
+    text-transform: uppercase;
+    letter-spacing: 1.01px;
+    font-family: oswald;
+    color: white;
+}
+
+.Titledes ul li i {
+    font-size: 13px;
+    margin-right: 15px;
+    color: #676767;
+}
+
+.Buttons:hover {
+    background: #252525;
+    color: white;
+}
+
+.Titledes ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.Titledes ul li a:hover {
+    color: #ff5200;
+    transition: 0.5s;
+}
+
+.ContaiWrappers {
+    overflow: hidden;
+}
+
+
+
+
+
+section#ChooseUs {
+    background: linear-gradient(#2321217a,#23232396), url(../image/why-choose-us1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.warppras {
+    overflow: hidden;
+}
+
+.Titlwrapra {
+    width: 280px;
+    text-align: center;
+    overflow: hidden;
+    float: left;
+}
+
+.ChooseIcons i {
+    font-size: 28px;
+    margin-bottom: 18px;
+    color: white;
+}
+
+.ChooseTitles span {
+    font-size: 50px;
+    color: white;
+    font-weight: 600;
+}
+
+.ChooseTitles h3 {
+    color: white;
+    font-size: 22px;
+    margin-top: 12px;
+    font-weight: 500;
+}
+
+
+
+
+section#FromUs {
+    background: #f6f6f6;
+}
+
+.FromWrapprs {
+    overflow: hidden;
+}
+
+.FromTitle {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.FromTitle h2 {
+    font-size: 40px;
+}
+
+.FromTitle p {
+    color: #666;
+    line-height: 1.5;
+}
+
+.FrmDesWrap {
+    overflow: hidden;
+    width: 265px;
+    float: left;
+    margin-right: 25px;
+}
+
+.FromImg {
+    width: 270px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.FromImg img {
+    position: relative;
+    width: 100%;
+}
+
+.FromImgTitle p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.FromImgTitle h3 {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.FrmDesWrap:last-child {
+    margin-right: 0px;
+}
+
+
+
+
+.PriceBoxWrap {
+    width: 276px;
+    overflow: hidden;
+    box-shadow: 0px 0px 28px 18px #fafafa;
+    padding: 35px;
+    border: 1px solid #feee;
+    float: left;
+    margin-right: 30px;
+}
+
+.PriceConWraprs {
+    overflow: hidden;
+}
+
+
+.PriTopTitl h2 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.PriTopTitl h3 {
+    font-size: 50px;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 9px;
+}
+
+.PriTopTitl span {
+    font-size: 22px;
+    font-weight: 800;
+    font-family: 'Work Sans', sans-serif;
+    margin-left: -4px;
+}
+
+.PriceDes ul li {
+    list-style: none;
+    line-height: 2.2;
+    color: #777;
+}
+
+.PriceDes ul {
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+
+.PriceBtn {
+    width: 226px;
+    /* text-align: center; */
+    overflow: hidden;
+}
+
+.PriceBtn button {
+    border-style: none;
+    background: #ff5200;
+    padding: 13px 40px;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 19px;
+    font-family: 'oswald', sans-serif;
+}
+
+.PriceDes ul li i {
+    color: #ff5200;
+    font-size: 11px;
+    margin-right: 4px;
+}
+
+.PriceBtn button:hover {
+    background: #252525;
+    cursor: pointer;
+}
+
+
+
+
+.MeetBoxWrap {
+    width: 255px;;
+    float: left;
+    margin-right: 35px;
+    overflow: hidden;
+    border: 1px solid #f1f1f1;
+}
+
+.MeetImg {
+    width: 100%;
+}
+
+.MeetImg img {
+    width: 100%;
+}
+
+.MettTitle {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.MettTitle h2 {
+    font-size: 19px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 4px;
+}
+
+.MettTitle span {
+    font-size: 12px;
+}
+
+.MeetBoxWrap:last-child {
+    margin-right: 0px;
+}
+
+.JoinBtn {
+    text-align: center;
+}
+
+.JoinBtn button {
+    margin-top: 45px;
+    border-style: none;
+    background: #252525;
+    color: white;
+    padding: 14px 38px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    border-radius: 7px;
+}
+
+.JoinBtn button:hover {
+    background: #ff5200;
+    cursor: pointer;
+}
+
+.JoinBtn button a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+.BestImgWraps {
+    width: 353px;
+    float: left;
+    overflow: hidden;
+    margin-right: 45px;
+}
+
+.BestImgWraps img {
+    width: 100%;
+}
+.BestWra {
+    column-count: 3;
+    overflow: hidden;
+}
+
+.BestTitleInfo {
+    transform: translatey(-154px);
+    width: 315px;
+    padding: 20px;
+    display: block;
+    overflow: hidden;
+}
+
+.BestTitleInfo {}
+
+.BestTitle span {
+    font-weight: 500;
+    color: white;
+    font-size: 15px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.BestTitle h3 {
+    color: white;
+    display: block;
+    font-size: 22px;
+    line-height: 1.2;
+}
+
+.BestTitleInfo {}
+
+.BestTitleInfo a {
+    color: #ff5200;
+    text-decoration: none;
+    margin-top: 10px;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+.BestTitleInfo {
+    background: linear-gradient(to top, black, transparent 145px);
+}
+
+
+.BestTitle {
+    margin-bottom: 20px;
+    display: block;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+section#BestProject {
+    background: #f6f6f6;
+}
+
+.ConWrapprs {
+    overflow: hidden;
+}
+
+
+
+.LatesBoxWraprs {
+    width: 357px;
+    overflow: hidden;
+    float: left;
+    border: 1px solid #eee;
+    margin-right: 30px;
+}
+
+.LatesImg img {
+    width: 100%;
+}
+
+.LatesTitle a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+}
+
+.LatesTitle {}
+
+.LatesTitle p {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #999;
+}
+
+.LatesTitle {
+    padding: 25px;
+}
+
+
+a.LatesReadmore {
+    text-decoration: none;
+    color: #ff5200;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Work Sans', sans-serif;
+}
+
+a.LatesReadmore i {
+    font-size: 10px;
+    margin-left: 4px;
+}
+
+.LatesBoxWraprs:last-child {
+    margin-right: 0px;
+}
+
+.LateNewWraprs {
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+#FooterMenu{
+    
+    background: #1A1A1A;
+}
+
+
+.contaonerwra {
+    overflow: hidden;
+}
+
+.FooterCopyri {
+    width: 430px;
+    color: #ababab;
+    float: left;
+    padding: 30px 13px;
+    display: block;
+}
+
+.FooterDown {}
+
+.FooterDown {
+    float: right;
+    width: 336px;
+    padding: 30px 1px;
+}
+
+ul#FoterListLast {
+    list-style: none;
+    float: left;
+    color: #ababab;
+}
+
+ul#FoterListLast li {
+    float: left;
+    margin-right: 31px;
+}
+
+
+ul#FoterListLast li a {
+    text-decoration: none;
+    color: #ababab;
+}
+
+
+
+
+
+
+
+.FotearSinWra {
+    width: 255px;
+    overflow: hidden;
+    float: left;
+    padding-bottom: 50px;
+}
+
+.FoterAbout h2 {
+    color: white;
+    margin-bottom: 25px;
+    margin-top: 80px;
+}
+
+.FoterAbout p {
+    color: #ABABAB;
+    margin-bottom: 35px;
+}
+
+.FoterLinkIcon ul {
+    list-style: none;
+    color: #ababab;
+}
+
+.FoterLinkIcon ul li a {
+    text-decoration: none;
+    color: #ababab;
+}
+
+.FoterLinkIcon ul li {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.FoterWrappers{
+    
+    overflow: hidden;
+    
+}
+
+
+.FoterIcons {
+    width: 25px;
+    overflow: hidden;
+    float: left;
+}.FoterIcons {}
+
+.FoterIcons i {
+    color: #ff5200;
+}
+
+.FoterDetails {
+    padding-left: 30px;
+    color: #ababab;
+    width: 220px;
+    font-size: 15px;
+}
+
+li.FotersIconsMenu {
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+ul#FotersAbouts {}
+
+ul#FotersAbouts li {
+    list-style: none;
+    margin-bottom: 10px;
+    padding-bottom: 11px;
+    font-size: 15px;
+    border-bottom: 1px dashed rgba(74, 74, 74, 0.5);
+    line-height: 7px;
+}
+
+ul#FotersAbouts li a {
+    text-decoration: none;
+    color: #ababab;
+}
+
+
+
+
+
+.FoterDate {
+    width: 50px;
+    text-align: center;
+    color: white;
+    float: left;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: rgba(255,255,255,.1);
+}
+
+.FoterDate strong {
+    font-size: 25px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.FoterDate span {
+    font-size: 11px;
+    display: block;
+    margin-bottom: 1px;
+    text-transform: uppercase;
+}
+
+.FoterDatDesWra {
+    margin-left: 80px;
+}
+
+.FoterDateTitle {
+    padding: 0px;
+    margin: 0px;
+}
+
+.FoterDateTitle h6 a {
+    text-decoration: none;
+    color: #ababab;
+    font-size: 16px;
+}
+
+.FoterAdmin ul li {
+    list-style: none;
+    float: left;
+    margin-right: 30px;
+    font-size: 12px;
+    display: inline-block;
+    /* color: inherit; */
+    margin-top: 4px;
+}
+
+.FoterAdmin ul {
+    color: #ababab;
+}
+
+
+.FoterAdimnsWrap {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
